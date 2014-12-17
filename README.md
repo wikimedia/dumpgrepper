@@ -1,6 +1,6 @@
 # MediaWiki dump grepper
 
-Installation: `npm install`
+Installation: `npm install dumpgrepper`
 
 ```
 Usage: zcat dump.xml.gz | node ./index.js <regexp>

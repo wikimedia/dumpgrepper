@@ -1,8 +1,13 @@
 {
   "name": "dumpgrepper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A grep utility for MediaWiki XML dumps",
   "main": "index.js",
+  "repository": "https://github.com/wikimedia/dumpgrepper",
+  "issues": "https://github.com/wikimedia/dumpgrepper/issues",
+  "bin" : { 
+      "dumpgrepper" : "./index.js" 
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +17,9 @@
     "grep"
   ],
   "author": "Gabriel Wicke <gwicke@wikimedia.org>",
+  "contributors": [
+      "C. Scott Ananian <cananian@wikimedia.org>"
+  ],
   "license": "Apache",
   "dependencies": {
     "colors": "^1.0.3",
