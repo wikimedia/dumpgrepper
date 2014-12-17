@@ -1,0 +1,21 @@
+{
+  "name": "dumpgrepper",
+  "version": "0.0.0",
+  "description": "A grep utility for MediaWiki XML dumps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mediawiki",
+    "dump",
+    "grep"
+  ],
+  "author": "Gabriel Wicke <gwicke@wikimedia.org>",
+  "license": "Apache",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "libxmljs": "git+https://github.com/gwicke/libxmljs",
+    "yargs": "^1.3.3"
+  }
+}
