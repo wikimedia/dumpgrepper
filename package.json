@@ -1,6 +1,6 @@
 {
   "name": "dumpgrepper",
-  "version": "0.1.0",
+  "version": "0.1.0-git",
   "description": "A grep utility for MediaWiki XML dumps",
   "main": "index.js",
   "repository": "https://github.com/wikimedia/dumpgrepper",
