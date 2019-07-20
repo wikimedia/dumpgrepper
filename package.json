@@ -23,7 +23,7 @@
   "license": "Apache",
   "dependencies": {
     "colors": "^1.0.3",
-    "libxmljs": "git+https://github.com/gwicke/libxmljs",
+    "libxmljs": "^0.19.5",
     "yargs": "^1.3.3"
   }
 }
